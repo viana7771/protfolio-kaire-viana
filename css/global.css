@@ -1,0 +1,37 @@
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+    font-family: var(--font-secondary);
+
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: var(--container-width);
+
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+section {
+    padding: var(--spacing-xl) 0;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-primary);
+}
+
+h1 {
+    font-size: var(--title-lg);
+}
+
+h2 {
+    font-size: var(--title-md);
+}
+
+p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
