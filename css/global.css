@@ -1,37 +1,35 @@
 body {
-    background-color: var(--bg-color);
+
+    background:
+        radial-gradient(
+            circle at top,
+            rgba(59, 130, 246, 0.12),
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at bottom,
+            rgba(0, 255, 136, 0.08),
+            transparent 30%
+        ),
+        var(--bg-color);
+
     color: var(--text-color);
 
     font-family: var(--font-secondary);
 
     overflow-x: hidden;
+
+    min-height: 100vh;
 }
 
 .container {
+
     width: 100%;
     max-width: var(--container-width);
 
     margin: 0 auto;
-    padding: 0 var(--spacing-md);
+
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-section {
-    padding: var(--spacing-xl) 0;
-}
-
-h1, h2, h3 {
-    font-family: var(--font-primary);
-}
-
-h1 {
-    font-size: var(--title-lg);
-}
-
-h2 {
-    font-size: var(--title-md);
-}
-
-p {
-    color: var(--text-secondary);
-    line-height: 1.6;
-}
