@@ -1,0 +1,32 @@
+.contact {
+
+    padding: 8rem 0;
+}
+
+.contact-links {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 2rem;
+
+    margin-top: 4rem;
+}
+
+.contact-item i {
+
+    font-size: 3rem;
+
+    color: white;
+
+    transition: .3s ease;
+}
+
+.contact-item:hover i {
+
+    color: var(--primary-color);
+
+    transform: scale(1.1);
+}
